@@ -1,0 +1,53 @@
+----------------------------
+Booking ID: BK1409
+Train Number: 47932
+Train Name: MetturExpress
+Source: erode
+Destination: bengaluru
+Depature: 1:00 PM
+Arrival: 17:00 PM
+Seats Booked: 25
+Total Price: 7500.00
+----------------------------
+----------------------------
+Total Price: 16500.00
+----------------------------
+----------------------------
+Booking ID: BK2828
+Train Number: 97834
+Train Name: MysuruExpress
+Source: smvtbengaluru
+Destination: mysuru
+Depature: 10:00 AM
+Arrival: 14:00 PM
+Seats Booked: 25
+Total Price: 5000.00
+----------------------------
+----------------------------
+Total Price: 1000.00
+----------------------------
+----------------------------
+Booking ID: BK3702
+Train Number: 47932
+Train Name: MetturExpress
+Source: erode
+Destination: bengaluru
+Depature: 1:00 PM
+Arrival: 17:00 PM
+Seats Booked: 2
+Total Price: 600.00
+----------------------------
+----------------------------
+Booking ID: BK9265
+Train Number: 47932
+Train Name: MetturExpress
+Source: erode
+Destination: bengaluru
+Depature: 1:00 PM
+Arrival: 17:00 PM
+Seats Booked: 1
+Total Price: 300.00
+----------------------------
+----------------------------
+Total Price: 400.00
+----------------------------
