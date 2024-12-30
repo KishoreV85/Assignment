@@ -7,25 +7,23 @@
 using namespace std;
 
 // Definition of a tree node
-struct Node {
+class Node {
+       
+public:
     	int data;             // Data part of the node
     	Node* left_child;     // Pointer to the left child
     	Node* right_child;    // Pointer to the right child
+    	Node(int value) {
+    		data = value;
+    		left_child = nullptr;
+    	        right_child = nullptr;
+    	}
 };
-
-// Function to create a new node dynamically
-Node* createNode(int data) {
-	Node* newNode = new Node;
-    	newNode->data = data;
-    	newNode->left_child = nullptr;
-    	newNode->right_child = nullptr;
-    	return newNode;
-}
 
 // Function to insert a node into the binary search tree
 Node* insert(Node* root, int data) {
     	if (!root) {
-        	return createNode(data);   // Create and return a new node if the root is null
+        	return new Node(data);   // Create and return a new node if the root is null
     	}
     	if (data < root->data) {
         	root->left_child = insert(root->left_child, data); // Insert into the left subtree
